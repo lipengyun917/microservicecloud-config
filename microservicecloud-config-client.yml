@@ -6,7 +6,7 @@ spring:
 server:
    port: 8201
 spring:
-  profiles: dev        #¿ª·¢»·¾³
+  profiles: dev        #å¼€å‘ç¯å¢ƒ
   application:
     name: microservicecloud-config-client
 eureka:
@@ -17,11 +17,11 @@ eureka:
 server:
    port: 8202
 spring:
-  profiles: test        #²âÊÔ»·¾³
+  profiles: test        #æµ‹è¯•ç¯å¢ƒ
   application:
     name: microservicecloud-config-client
 eureka:
     client:
       service-url:
           defaultZone: http://eureka-test.com:7001/eureka/
-#  Çë±£´æÎªuft-8¸ñÊ½
+#  è¯·ä¿å­˜ä¸ºuft-8æ ¼å¼
